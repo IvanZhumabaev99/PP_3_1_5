@@ -11,12 +11,12 @@ import ru.kata.spring.boot_security.demo.service.UserService;
 import java.security.Principal;
 
 @RestController
-public class AuthController {
+public class UserController {
 
     private final UserService userService;
 
     @Autowired
-    public AuthController(UserService userService) {
+    public UserController(UserService userService) {
         this.userService = userService;
     }
 

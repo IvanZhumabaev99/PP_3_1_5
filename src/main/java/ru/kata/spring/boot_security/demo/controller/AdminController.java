@@ -28,12 +28,12 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/admin")
-public class RESTController {
+public class AdminController {
 
     private final UserService userService;
 
     @Autowired
-    public RESTController(UserService userService) {
+    public AdminController(UserService userService) {
         this.userService = userService;
     }
 
